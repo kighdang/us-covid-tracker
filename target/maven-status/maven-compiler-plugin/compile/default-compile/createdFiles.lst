@@ -1,0 +1,5 @@
+com\example\covid\api\CovidController.class
+com\example\covid\model\State.class
+com\example\covid\dao\CovidDatabase.class
+com\example\covid\dao\CovidDatabaseService.class
+com\example\covid\CovidDataAppApplication.class

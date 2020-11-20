@@ -1,0 +1,10 @@
+app:
+    datasource:
+        jdbc-url: jdbc:postgresql://localhost:5432/covid
+        username: postgres
+        password: password
+        pool-size: 30
+        
+resource: 
+    data: https://api.covidtracking.com/v1/states/current.json
+        
