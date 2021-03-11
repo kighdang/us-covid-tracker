@@ -35,6 +35,7 @@ This project was started to help me become familiar with Java Spring Boot. It se
 At the moment, the app only populates/updates the database with data from the COVID Tracking Project's Data API. To have the database update:
 * Launch Postman 
 * Send a get request to http://localhost:8080/app/v1. 
+Then use the command `SELECT * FROM states;` to query the states table for the data in the database.
 
 ## What's next 
 * Some code that will instantiate the 'states' table so that the user does not have to do it themselves to setup
