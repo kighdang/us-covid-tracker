@@ -24,7 +24,10 @@ This project was started to help me become familiar with Java Spring Boot. It se
 ## Setup
 1. Ensure that all of the technologies listed above have been installed 
 2. Create a database schema named 'covid' with a table named 'states'. The 'states' table should have a column named 'name' as the primary key and a column named 'total_cases'.
-3. Run the Java Spring Boot app with the command: "run app" 
+  *  Log in to the postgres database that you have created using the `psql` command. 
+  *  Enter in the command `CREATE TABLE states(name VARCHAR(25) PRIMARY KEY, total_cases int);` to create the table and its columns.
+  
+4. Run the Java Spring Boot app with the command ` 
 
 ## Usage
 At the moment, the app only populates/updates the database with data from the COVID Tracking Project's Data API. The command will query the database to display the data
